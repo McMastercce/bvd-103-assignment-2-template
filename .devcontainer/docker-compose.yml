@@ -1,6 +1,6 @@
 services:
   dev:
-    image: mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm
+    image: mcr.microsoft.com/devcontainers/typescript-node:4-24-bookworm
     user: root
     ports:
       - "9080:9080"
