@@ -7,6 +7,7 @@
   "service": "dev",
   "features": {
     "ghcr.io/mcmastercce/bvd-103-mcmasterful-books/mcmasterful-books:latest": {},
+    "ghcr.io/mcmastercce/container-tools/gh:1": {},
     "ghcr.io/mcmastercce/container-tools/herdr:1": {},
     "ghcr.io/mcmastercce/container-tools/lazygit:1": {},
     "ghcr.io/mcmastercce/container-tools/mise:1": {},
