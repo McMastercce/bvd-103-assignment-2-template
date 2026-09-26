@@ -6,8 +6,17 @@
   ],
   "service": "dev",
   "features": {
-    "ghcr.io/mcmastercce/bvd-103-mcmasterful-books/mcmasterful-books:latest": {}
+    "ghcr.io/mcmastercce/bvd-103-mcmasterful-books/mcmasterful-books:latest": {},
+    "ghcr.io/mcmastercce/container-tools/gh:1": {},
+    "ghcr.io/mcmastercce/container-tools/herdr:1": {},
+    "ghcr.io/mcmastercce/container-tools/lazygit:1": {},
+    "ghcr.io/mcmastercce/container-tools/mise:1": {},
+    "ghcr.io/mcmastercce/container-tools/neovim:1": {},
+    "ghcr.io/mcmastercce/container-tools/nnn:1": {},
+    "ghcr.io/mcmastercce/container-tools/pi:1": {}
   },
+  // node_modules is not committed, so install dependencies once the container exists.
+  "postCreateCommand": "npm install",
   "workspaceFolder": "/workspaces",
   "customizations": {
     "vscode": {
